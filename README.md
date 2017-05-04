@@ -1,6 +1,6 @@
 Ducky_HID_WSI
 =====
-USB Rubber Ducky custom firmware with status indication
+USB Rubber Ducky HID-only firmware with status indication
 
 ---------------
 <h3>Introduction</h3>
