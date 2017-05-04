@@ -1,8 +1,10 @@
+Ducky_HID_WSI
 =====
 USB Rubber Ducky custom firmware with status indication
 
 ---------------
 <h3>Introduction</h3>
+Ducky_HID_WSI is HID-only firmware for the USB Rubber Ducky based off of midnitesnake's firmware (https://github.com/hak5darren/USB-Rubber-Ducky/tree/master/Firmware/Source/Ducky_HID).
 <br>
 midnitesnake's GitHub: https://github.com/midnitesnake
 <br>
