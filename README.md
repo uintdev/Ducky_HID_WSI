@@ -21,4 +21,4 @@ Red :: unable to use/access file
 
 ---------------
 <h3>Download</h3>
-The firmware is available to download from the releases section. Alternatively, the latest can be found in `debug/duck.hex`.
+The firmware is available to download from the release section. Alternatively, the latest can be found in `debug/duck.hex`.
