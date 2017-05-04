@@ -18,3 +18,7 @@ Red with green slightly flashing :: busy / going through the encoded DuckyScript
 Flashing green :: starting; done
 <br>
 Red :: unable to use/access file
+
+---------------
+<h3>Download</h3>
+The firmware is available to download from the releases section. Alternatively, the latest can be found in `debug/duck.hex`.
