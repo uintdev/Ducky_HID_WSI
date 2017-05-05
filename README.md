@@ -9,6 +9,7 @@ Ducky_HID_WSI is HID-only firmware for the USB Rubber Ducky based off of midnite
 midnitesnake's GitHub: https://github.com/midnitesnake
 <br>
 <br>
+This firmware is like the one that comes with the USB Rubber Ducky but it uses the LEDs to show when it's in the *injecting keystrokes* stage and when it's complete.
 
 ---------------
 <h3>LED indications</h3>
