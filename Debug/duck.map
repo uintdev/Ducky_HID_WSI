@@ -907,7 +907,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
 .plt
  *(.plt)
 
-.text           0x80002004     0x5de8
+.text           0x80002004     0x5dfc
  *(.text .stub .text.* .gnu.linkonce.t.*)
  .text.board_init
                 0x80002004       0x58 src/asf/avr32/boards/evk1101/init.o
@@ -1470,17 +1470,17 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
  .text.main     0x800078d4      0x1c8 src/main.o
                 0x800078d4                main
  .text.process_frame
-                0x80007a9c      0x1bc src/main.o
+                0x80007a9c      0x1d0 src/main.o
                 0x80007a9c                process_frame
  .text.main_sof_action
-                0x80007c58       0x18 src/main.o
-                0x80007c58                main_sof_action
- .text.memcmp   0x80007c70       0x26 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
-                0x80007c70                memcmp
- .text          0x80007c96      0x148 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcpy.o)
-                0x80007c96                memcpy
- .text.memset   0x80007dde        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
-                0x80007dde                memset
+                0x80007c6c       0x18 src/main.o
+                0x80007c6c                main_sof_action
+ .text.memcmp   0x80007c84       0x26 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
+                0x80007c84                memcmp
+ .text          0x80007caa      0x148 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcpy.o)
+                0x80007caa                memcpy
+ .text.memset   0x80007df2        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
+                0x80007df2                memset
  *(.text.*personality*)
  *(.gnu.warning)
 
@@ -2049,7 +2049,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
  .debug_abbrev  0x00002d46       0x92 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
  .debug_abbrev  0x00002dd8       0x85 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
 
-.debug_line     0x00000000     0xc364
+.debug_line     0x00000000     0xc366
  *(.debug_line)
  .debug_line    0x00000000      0x643 src/asf/avr32/boards/evk1101/init.o
  .debug_line    0x00000643      0x6fa src/asf/avr32/boards/evk1101/led.o
@@ -2071,10 +2071,10 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
  .debug_line    0x00009d02      0x71a src/asf/common/services/usb/class/hid/device/kbd/udi_hid_kbd_desc.o
  .debug_line    0x0000a41c      0x74c src/asf/common/services/usb/class/hid/device/udi_hid.o
  .debug_line    0x0000ab68      0x864 src/asf/common/services/usb/udc/udc.o
- .debug_line    0x0000b3cc      0xb88 src/main.o
- .debug_line    0x0000bf54       0x8e c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-ctype_.o)
- .debug_line    0x0000bfe2      0x1c4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
- .debug_line    0x0000c1a6      0x1be c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
+ .debug_line    0x0000b3cc      0xb8a src/main.o
+ .debug_line    0x0000bf56       0x8e c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-ctype_.o)
+ .debug_line    0x0000bfe4      0x1c4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000c1a8      0x1be c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
 
 .debug_frame    0x00000000     0x29bc
  *(.debug_frame)
@@ -2100,7 +2100,7 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
  .debug_frame   0x00002974       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
  .debug_frame   0x0000299c       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x8689
+.debug_str      0x00000000     0x86d1
  *(.debug_str)
  .debug_str     0x00000000       0xe6 src/asf/avr32/boards/evk1101/init.o
                                 0x11f (size before relaxing)
@@ -2142,13 +2142,13 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain
                                 0x49c (size before relaxing)
  .debug_str     0x00007dcc      0x54c src/asf/common/services/usb/udc/udc.o
                                 0xb06 (size before relaxing)
- .debug_str     0x00008318      0x212 src/main.o
-                                0x6f9 (size before relaxing)
- .debug_str     0x0000852a       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-ctype_.o)
+ .debug_str     0x00008318      0x25a src/main.o
+                                0x6f6 (size before relaxing)
+ .debug_str     0x00008572       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-ctype_.o)
                                  0x92 (size before relaxing)
- .debug_str     0x0000859f       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
+ .debug_str     0x000085e7       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memcmp.o)
                                 0x111 (size before relaxing)
- .debug_str     0x00008614       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
+ .debug_str     0x0000865c       0x75 c:/program files (x86)/atmel/studio/7.0/toolchain/avr32/avr32-gnu-toolchain/bin/../lib/gcc/avr32/4.4.7/../../../../avr32/lib/ucr1\libc.a(lib_a-memset.o)
                                 0x111 (size before relaxing)
 
 .debug_loc      0x00000000     0x711c

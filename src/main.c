@@ -5,7 +5,7 @@
 // Date			: Jan 1, 2013
 // Author       : Snake
 // Credit		: ATMEL, Jason Applebaum keyscan's method.
-// Modifications: by NodePoint - Added status indication (LED) - May 4, 2017
+// Modifications: by NodePoint - Added status indication (LED) - May 5, 2017
 //__________________________________________________________________________
 
 //_____  I N C L U D E S ___________________________________________________
@@ -139,8 +139,12 @@ void process_frame(uint16_t framenumber)
 			
 		case state_START_INJECT:
 			LED_On(LED1);
-			file_open(FOPEN_MODE_R);		
-			state = state_INJECTING;
+			if(file_open(FOPEN_MODE_R)) {		
+				state = state_INJECTING;
+			} else {
+				LED_Off(LED0);
+				while(true) { LED_On(LED1); }
+			}
 			break;
 			
 		case state_INJECTING:				
