@@ -5,7 +5,7 @@
 // Date			: Jan 1, 2013
 // Author       : Snake
 // Credit		: ATMEL, Jason Applebaum keyscan's method.
-// Modifications: by NodePoint - Added status indication (LED) - May 5, 2017
+// Modifications: by uintdev - Added status indication (LED) - May 5, 2017
 //__________________________________________________________________________
 
 //_____  I N C L U D E S ___________________________________________________
