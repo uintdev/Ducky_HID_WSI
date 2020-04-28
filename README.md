@@ -13,11 +13,12 @@ This firmware is like the one that comes with the USB Rubber Ducky but it uses 
 
 ---------------
 <h3>LED indications</h3>
-Red with green slightly flashing :: keystroke injection stage
-<br>
-Flashing green :: starting; finished
-<br>
-Red :: unable to use/access file
+
+| LED                              | Status                    |
+| -------------------------------- | ------------------------- |
+| Red with green slightly flashing | Keystroke injection stage |
+| Flashing green                   | Starting; finished        |
+| Red                              | Unable to use/access file |
 
 ---------------
 <h3>Download</h3>
